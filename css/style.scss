@@ -46,7 +46,7 @@ nav{
     color: partial.$text-color;
     height: 6em;
     padding: 1em;
-    @include partoal.flex($justify: space-between);
+    @include partial.flex($justify: space-between);
 
         img{
             width: 70px;
