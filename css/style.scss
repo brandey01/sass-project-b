@@ -240,7 +240,7 @@ main{
     display: flex;
 }
 
-input[type=tekst], input[type=email], input[type=tel], select, textarea{
+input[type=text], input[type=email], input[type=tel], select, textarea{
     width: 100%;
     font-size: 15px;
     padding: 1em;
@@ -339,7 +339,7 @@ footer:nth-of-type(2){
             }
     }
 
-    .desktop.nav{
+    .desktop-nav{
         display: none;
         height: auto;
         border-top: 4px solid partial.$primary-color;
@@ -421,7 +421,7 @@ footer:nth-of-type(2){
         flex-direction: column;
     }
 
-    input[type=tekst], input[type=email], input[type=tel], select, textarea{
+    input[type=text], input[type=email], input[type=tel], select, textarea{
         margin: 0.5em 0 1em 0;
     }
 

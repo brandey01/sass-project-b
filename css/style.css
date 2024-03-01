@@ -234,7 +234,7 @@ main .cta-wrapper {
   display: flex;
 }
 
-input[type=tekst], input[type=email], input[type=tel], select, textarea {
+input[type=text], input[type=email], input[type=tel], select, textarea {
   width: 100%;
   font-size: 15px;
   padding: 1em;
@@ -328,15 +328,15 @@ footer:nth-of-type(2) p {
   .mobile-nav .bars {
     display: flex;
   }
-  .desktop.nav {
+  .desktop-nav {
     display: none;
     height: auto;
     border-top: 4px solid #3A8479;
   }
-  .desktop.nav ul {
+  .desktop-nav ul {
     flex-direction: column;
   }
-  .desktop.nav li {
+  .desktop-nav li {
     display: flex;
   }
   .header-img .banner-tekst {
@@ -390,7 +390,7 @@ footer:nth-of-type(2) p {
   .section-form {
     flex-direction: column;
   }
-  input[type=tekst], input[type=email], input[type=tel], select, textarea {
+  input[type=text], input[type=email], input[type=tel], select, textarea {
     margin: 0.5em 0 1em 0;
   }
   input[type=submit] {
